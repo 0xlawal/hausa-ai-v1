@@ -36,7 +36,7 @@ function App() {
     const timeoutId = setTimeout(() => controller.abort(), 120000); // 2 minutes
 
     try {
-      const response = await fetch('http://localhost:8000/chat', {
+      const response = await fetch('https://hausa-ai-backend-v1.onrender.com/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: input }),
