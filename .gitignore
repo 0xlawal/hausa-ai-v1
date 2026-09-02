@@ -1,0 +1,16 @@
+﻿node_modules/
+*.pyc
+__pycache__/
+.env
+.vscode/
+.DS_Store
+dist/
+build/
+*.gguf
+*.safetensors
+model/
+scripts/llama.cpp/
+hausa_lora_final/
+merged_model/
+.git/
+*.log
