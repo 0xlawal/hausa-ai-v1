@@ -111,3 +111,5 @@ The application will be available at `http://localhost:5173`
 - The typing indicator shows while waiting for Ollama response.
 - Messages are limited to 4000 characters.
 - Conversation history is truncated to last 20 messages to prevent context overflow.
+
+Nb: I wasn't able to upload the model file because it was to large, if needed contact through gmail
